@@ -232,6 +232,10 @@ export default function PaywallScreen() {
             <Text style={styles.featureBullet}>•</Text>
             <Text style={styles.featureText}>Customizable preferences.</Text>
           </View>
+          <View style={styles.featureItem}>
+            <Text style={styles.featureBullet}>•</Text>
+            <Text style={styles.featureText}>Ad-free, distraction-free experience.</Text>
+          </View>
         </View>
 
         {/* Subscription Options */}
@@ -364,45 +368,45 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   content: {
-    paddingTop: 40,
+    paddingTop: 50,
     paddingBottom: 20,
     paddingHorizontal: 30,
     alignItems: 'center',
   },
   crownIcon: {
-    width: 70,
-    height: 70,
-    marginBottom: 8,
+    width: 75,
+    height: 75,
+    marginBottom: 12,
   },
   title: {
-    fontSize: 30,
+    fontSize: 31,
     fontWeight: '900',
     color: LegendColors.white,
     textAlign: 'center',
     letterSpacing: 1,
-    marginBottom: 16,
+    marginBottom: 18,
   },
   featuresList: {
     width: '100%',
     maxWidth: 500,
-    marginBottom: 18,
+    marginBottom: 20,
   },
   featureItem: {
     flexDirection: 'row',
     alignItems: 'flex-start',
-    marginBottom: 10,
+    marginBottom: 7,
   },
   featureBullet: {
     fontSize: 16,
-    color: 'rgba(255, 255, 255, 0.8)',
+    color: LegendColors.yellow,
     marginRight: 8,
-    lineHeight: 24,
+    lineHeight: 22,
   },
   featureText: {
     flex: 1,
-    fontSize: 16,
+    fontSize: 15,
     color: 'rgba(255, 255, 255, 0.8)',
-    lineHeight: 24,
+    lineHeight: 22,
   },
   subscriptionOptions: {
     width: '100%',
