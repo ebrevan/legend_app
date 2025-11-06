@@ -232,10 +232,6 @@ export default function PaywallScreen() {
             <Text style={styles.featureBullet}>•</Text>
             <Text style={styles.featureText}>Customizable preferences.</Text>
           </View>
-          <View style={styles.featureItem}>
-            <Text style={styles.featureBullet}>•</Text>
-            <Text style={styles.featureText}>Ad-free, distraction-free experience.</Text>
-          </View>
         </View>
 
         {/* Subscription Options */}
@@ -368,28 +364,28 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   content: {
-    paddingTop: 60,
-    paddingBottom: 40,
+    paddingTop: 40,
+    paddingBottom: 20,
     paddingHorizontal: 30,
     alignItems: 'center',
   },
   crownIcon: {
-    width: 80,
-    height: 80,
+    width: 70,
+    height: 70,
     marginBottom: 8,
   },
   title: {
-    fontSize: 32,
+    fontSize: 30,
     fontWeight: '900',
     color: LegendColors.white,
     textAlign: 'center',
     letterSpacing: 1,
-    marginBottom: 28,
+    marginBottom: 16,
   },
   featuresList: {
     width: '100%',
     maxWidth: 500,
-    marginBottom: 28,
+    marginBottom: 18,
   },
   featureItem: {
     flexDirection: 'row',
@@ -411,8 +407,8 @@ const styles = StyleSheet.create({
   subscriptionOptions: {
     width: '100%',
     maxWidth: 500,
-    gap: 14,
-    marginBottom: 20,
+    gap: 12,
+    marginBottom: 16,
   },
   planButton: {
     backgroundColor: 'rgba(255, 255, 255, 0.1)',
@@ -496,7 +492,7 @@ const styles = StyleSheet.create({
   },
   continueButton: {
     backgroundColor: LegendColors.yellow,
-    paddingVertical: 18,
+    paddingVertical: 16,
     paddingHorizontal: 60,
     borderRadius: 30,
     width: '100%',
@@ -508,7 +504,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.3,
     shadowRadius: 8,
     elevation: 8,
-    marginBottom: 24,
+    marginBottom: 12,
   },
   continueButtonText: {
     fontSize: 18,
@@ -517,8 +513,8 @@ const styles = StyleSheet.create({
     letterSpacing: 2,
   },
   restoreButton: {
-    marginBottom: 16,
-    paddingVertical: 8,
+    marginBottom: 8,
+    paddingVertical: 6,
   },
   restoreText: {
     fontSize: 15,
@@ -532,8 +528,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     width: '100%',
     maxWidth: 500,
-    marginTop: 25,
-    paddingBottom: 30,
+    marginTop: 8,
+    paddingBottom: 20,
   },
   legalButton: {
     paddingVertical: 10,
